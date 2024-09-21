@@ -42,6 +42,7 @@ public class SystemAdminServiceImpl implements SystemAdminService {
 
         return systemAdminDto;
     }
+<<<<<<< HEAD
 
     @Override
     public SystemAdminDto register(String email, String password) throws SQLException {
@@ -67,4 +68,6 @@ public class SystemAdminServiceImpl implements SystemAdminService {
 
         return systemAdminDto;
     }
+=======
+>>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
 }

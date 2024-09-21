@@ -23,6 +23,13 @@
     <link rel="stylesheet" type="text/css" href="style/authority/jquery.fancybox-1.3.4.css" media="screen"></link>
     <script type="text/javascript" src="scripts/artDialog/artDialog.js?skin=default"></script>
     <title>建筑管理系统</title>
+<<<<<<< HEAD
+=======
+    <%--<style>
+        .alt td{ background:black !important;}
+    </style>--%>
+
+>>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
 
 </head>
 <body>
@@ -36,8 +43,13 @@
                     <div id="box_top">搜索</div>
                     <div id="box_center">
                         字段
+<<<<<<< HEAD
                         <select name="key" id="fyXq" class="ui_select01" required placeholder="" onchange="getFyDhListByFyXqCode();">
                             <option value="1">--默认查询全部--</option>
+=======
+                        <select name="key" id="fyXq" class="ui_select01"  onchange="getFyDhListByFyXqCode();">
+                            <option value="">--请选择--</option>
+>>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
                             <option value="buildingname">建筑名称</option>
                             <option value="structure">建筑结构</option>
                             <option value="term">设计年限</option>

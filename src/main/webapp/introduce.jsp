@@ -20,7 +20,11 @@
         </tr>
         <tr>
             <td width="100" height="30">当前版本<span class="TableRow2"></span></td>
+<<<<<<< HEAD
             <td style="text-align:left">建筑信息管理系统 1.01</td>
+=======
+            <td style="text-align:left">建筑管理系统 1.01</td>
+>>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
         </tr>
         <tr>
             <td width="100" height="30">版权声明</td>
@@ -33,7 +37,11 @@
         </tr>
         <tr>
             <td width="100" height="30">程序制作</td>
+<<<<<<< HEAD
             <td style="text-align:left">韩易玎</td>
+=======
+            <td style="text-align:left">刘晓峰 韩易玎</td>
+>>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
         </tr>
         <tr>
             <td width="100" height="30">联系方式</td>
