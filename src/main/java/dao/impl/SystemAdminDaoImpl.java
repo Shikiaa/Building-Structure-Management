@@ -24,16 +24,13 @@ public class SystemAdminDaoImpl implements SystemAdminDao {
             return new SystemAdmin(username,password);
 
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
         JDBCUtil.release(connection,statement,resultSet);
 
         return null;
     }
 
-<<<<<<< HEAD
+
     @Override
     public SystemAdmin insertNewUser(String username, String password) throws SQLException {
 
@@ -53,7 +50,3 @@ public class SystemAdminDaoImpl implements SystemAdminDao {
 
 }
 //insert into SYSDBA.\"building\"(\"location\",\"buildingname\",\"structure\",\"term\",\"type\") values(?,?,?,?,?)
-=======
-
-}
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6

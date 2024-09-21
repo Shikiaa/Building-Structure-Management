@@ -16,23 +16,18 @@ import java.sql.SQLException;
 @WebServlet("/account")
 public class SystemAdminServlet extends HttpServlet {
 
-<<<<<<< HEAD
+
     private SystemAdminService systemAdminService = new SystemAdminServiceImpl();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         this.doPost(req, resp);
-=======
-    private SystemAdminService systemAdminService=new SystemAdminServiceImpl();
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.doPost(req,resp);
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
+
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-<<<<<<< HEAD
+
         req.setCharacterEncoding("UTF-8");
         String path = req.getContextPath();
         try {
@@ -66,33 +61,11 @@ public class SystemAdminServlet extends HttpServlet {
                         req.getRequestDispatcher("login.jsp").forward(req, resp);
                     }
 
-=======
 
-        String email=req.getParameter("email");
-        String password=req.getParameter("pwd");
-        try {
-            SystemAdminDto systemAdminDto =this.systemAdminService.login(email,password);
-            if (systemAdminDto.getCode()==-1){
-                req.setAttribute("emailError","此邮箱不存在！");
-                req.getRequestDispatcher("login.jsp").forward(req,resp);
-            }
-            if (systemAdminDto.getCode()==-2){
-                req.setAttribute("pwdError","密码错误");
-                req.getRequestDispatcher("login.jsp").forward(req,resp);
-            }
-            if (systemAdminDto.getCode()==1){
-                HttpSession session=req.getSession();
-                session.setAttribute("admin",systemAdminDto.getSystemAdmin());
-                resp.sendRedirect("/BSMM_war_exploded/house_list.jsp");
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
             }
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-<<<<<<< HEAD
-=======
-
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
     }
 }

@@ -13,7 +13,7 @@
 <head>
     <meta charset="UTF-8">
     <title>登陆页面</title>
-<<<<<<< HEAD
+
     <script type="text/javascript" src="scripts/jquery/jquery-1.7.1.js"></script>
     <link href="style/authority/basic_layout.css" rel="stylesheet" type="text/css">
     <link href="style/authority/common_style.css" rel="stylesheet" type="text/css">
@@ -25,10 +25,10 @@
     <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style/authority/jquery.fancybox-1.3.4.css" media="screen"></link>
     <script type="text/javascript" src="scripts/artDialog/artDialog.js?skin=default"></script>
-=======
+
     <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
+
     <style>
         .form-horizontal{
             background: #fff;
@@ -143,14 +143,13 @@
             text-transform: capitalize;
             transition: all 0.5s ease 0s;
         }
-<<<<<<< HEAD
+
         .toggle-password {
             cursor: pointer;
             user-select: none;
             margin-left: 5px;/* 防止文本被选中 */
         }
-=======
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
+
         @media only screen and (max-width: 479px){
             .form-horizontal .form-group{
                 padding: 0 25px;
@@ -164,39 +163,24 @@
         }
     </style>
 </head>
-<<<<<<< HEAD
 
-=======
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
 <body>
 
 <div class="container">
     <div class="row">
         <div class="col-md-offset-3 col-md-6">
-<<<<<<< HEAD
+
             <form class="form-horizontal" action="<%= request.getContextPath()%>/account?method=login" method="post">
-                <span class="heading">建筑信息管理系统登录</span>
-                <div class="form-group">
-                    <i class="fa fa-user"></i>
-                    <input type="email" class="form-control" id="inputEmail3" required placeholder="电子邮件" name="email1">
-                    <div style="color: #ff0000;font-size: 13px;margin-left: -17px;font-weight: bold;">${emailError }</div>
-                    <div style="color: #ff0000;font-size: 13px;margin-left: -17px;font-weight: bold;">${emailNError }</div>
-                </div>
-                <div class="form-group help">
-                    <input type="password" class="form-control" id="inputPassword3" required placeholder="密码" name="pwd">
-                    <div style="color: #ff0000";font-weight: bold>${pwdError }</div>
-=======
-            <form class="form-horizontal" action="<%= request.getContextPath()%>/account" method="post">
                 <span class="heading">建筑结构管理模块登录</span>
                 <div class="form-group">
                     <i class="fa fa-user"></i>
-                    <input type="email" class="form-control" id="inputEmail3" required placeholder="电子邮件" name="email">
+                    <input type="email" class="form-control" id="inputEmail3" required placeholder="电子邮件" name="email1">
                     <div style="color: #ff0000;font-size: 13px;margin-left: -17px">${emailError }</div>
                 </div>
                 <div class="form-group help">
                     <input type="password" class="form-control" id="inputPassword3" required placeholder="密码" name="pwd">
                     <div style="color: #ff0000">${pwdError }</div>
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
+
                     <i class="fa fa-lock"></i>
                     <a href="#" class="fa fa-question-circle"></a>
                 </div>
@@ -206,17 +190,15 @@
                         <label for="checkbox1"></label>
                     </div>
                     <span class="text">记住我</span>
-<<<<<<< HEAD
+
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#registerModal">注册</button>
-=======
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
+
                     <button type="submit" class="btn btn-default">立刻登录</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
-<<<<<<< HEAD
 
 
 
@@ -289,10 +271,7 @@
 </script>
 
 
+
 </body>
 
-
-=======
-</body>
->>>>>>> 901ddfb81d43092efd0fa0b2ffc0553c787587c6
 </html>
